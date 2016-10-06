@@ -1,7 +1,7 @@
 FROM scratch
 
 COPY public-html /public-html
-COPY /bin/main /
+COPY bin/main /
 
 VOLUME /public-html
 
